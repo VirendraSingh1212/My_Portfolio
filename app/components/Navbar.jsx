@@ -37,20 +37,20 @@ const Navbar = () => {
         }`}
       >
         <a href="#top">
-          <Image src={assets.logo} alt="Logo" className="w-28 cursor-pointer mr-15" />
+          <Image src={assets.logo} alt="Logo" className="w-28 cursor-pointer mr-12" />
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? " " : " bg-white shadow-sm bg-opacity-50"}`}>
           <li>
             <a className="font-Ovo" href="#top">Home</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#About Me">About Me</a>
+            <a className="font-Ovo" href="#about">About Me</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#My Work">My Work</a>
+            <a className="font-Ovo" href="#work">My Work</a>
           </li>
           <li>
-            <a className="font-Ovo" href="#Contact Me">Contact Me</a>
+            <a className="font-Ovo" href="#contact">Contact Me</a>
           </li>
         </ul>
         <div className="flex items-center gap-4">
@@ -78,13 +78,13 @@ const Navbar = () => {
             <a className="font-Ovo" onClick={closeMenu} href="#top">Home</a>
           </li>
           <li>
-            <a className="font-Ovo" onClick={closeMenu} href="#About Me">About Me</a>
+            <a className="font-Ovo" onClick={closeMenu} href="#about">About Me</a>
           </li>
           <li>
-            <a className="font-Ovo" onClick={closeMenu} href="#My Work">My Work</a>
+            <a className="font-Ovo" onClick={closeMenu} href="#work">My Work</a>
           </li>
           <li>
-            <a className="font-Ovo" onClick={closeMenu} href="#Contact Me">Contact Me</a>
+            <a className="font-Ovo" onClick={closeMenu} href="#contact">Contact Me</a>
           </li>
         </ul>
       </nav>
